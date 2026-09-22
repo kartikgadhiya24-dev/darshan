@@ -3,6 +3,7 @@ members = [
     "security",
     "networking",
     "protocol",
-    "transfer"
+    "transfer",
+    "jni_bridge"
 ]
 resolver = "2"
