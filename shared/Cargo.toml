@@ -2,6 +2,7 @@
 members = [
     "security",
     "networking",
-    "protocol"
+    "protocol",
+    "transfer"
 ]
 resolver = "2"
