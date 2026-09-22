@@ -1,0 +1,16 @@
+[package]
+name = "jni_bridge"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"] # Crucial: builds a dynamic library (.so) for Android
+
+[dependencies]
+jni = "0.21.1"
+
+# Internal Workspace Dependencies
+security = { path = "../security" }
+networking = { path = "../networking" }
+protocol = { path = "../protocol" }
+transfer = { path = "../transfer" }
