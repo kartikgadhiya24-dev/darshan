@@ -1,0 +1,14 @@
+[package]
+name = "host-windows"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Use cross-platform screen capture crate or specific windows API
+xcap = "0.0.12" 
+tokio = { version = "1.36.0", features = ["full"] }
+
+# Internal workspace dependencies
+security = { path = "../../shared/security" }
+networking = { path = "../../shared/networking" }
+protocol = { path = "../../shared/protocol" }
