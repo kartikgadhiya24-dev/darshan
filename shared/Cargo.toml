@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "security",
-    "networking"
+    "networking",
+    "protocol"
 ]
 resolver = "2"
