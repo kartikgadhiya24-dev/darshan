@@ -7,6 +7,7 @@ edition = "2021"
 # Use cross-platform screen capture crate or specific windows API
 xcap = "0.0.12" 
 tokio = { version = "1.36.0", features = ["full"] }
+enigo = "0.2.1"
 
 # Internal workspace dependencies
 security = { path = "../../shared/security" }
